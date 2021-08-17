@@ -44,3 +44,26 @@ driving_license_character_limit = 28
 print(name_length <= driving_license_character_limit)
 
 # print(len(835))   ovo vraća error i to syntax jer nemožeš vadit len od integera
+
+mon_sales = "121"
+tues_sales = "105"
+wed_sales = "110"
+thurs_sales = "98"
+fri_sales = "95"
+
+#TODO: Print a string with this format: This week's total sales: xxx
+# You will probably need to write some lines of code before the print statement.
+week_total = int(mon_sales) + int(tues_sales) + int(wed_sales) + int(thurs_sales) + int(fri_sales)
+week_sales = week_total / 7
+week_message = "This week's total sales: " + str(week_sales)
+print(week_message)
+
+print("one fish, two fish, more fish".count('fish'))
+
+print("Mohammed has {} balloons".format(27))
+animal = "dog Perry"
+action = "eat shit Bob!"
+print("Does your {} {}?".format(animal, action))
+maria_string = "Maria loves {} and {}"
+print(maria_string.format("sarme", "kumpirove zlatice"))
+print(13.37.islower())
